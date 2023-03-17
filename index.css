@@ -59,20 +59,56 @@ body {
     flex-direction: row;
     padding: 2% 10%;
     justify-content: space-around;
-    color: #4d4a4a;
+    color: #7a7474;
 }
 
 .nav {
     display: flex;
     justify-content: flex-end;
-    gap: 3%;
+    gap: 1%;
     font-size: 14px;
     align-items: center;
 }
 
+.title {
+    z-index: 2;
+}
+
+.title-logo {
+    overflow: hidden;
+}
+
+.title:after {
+    z-index: -1;
+    width: 33%;
+    height: 3%;
+    bottom: 70%;
+    left: 28%;
+    content: '';
+    position: absolute;
+    /* min-width: 700px; */
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.65) 15%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 85%, rgba(0, 0, 0, 1) 100%), url(assets/glowline.png);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.65) 15%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 85%, rgba(0, 0, 0, 1) 100%), url(assets/glowline.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.65) 15%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 85%, rgba(0, 0, 0, 1) 100%), url(assets/glowline.png);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=1);
+    background-repeat: no-repeat;
+}
+
 .main--nav {
     display: flex;
-    gap: 20px;
+    width: 100%;
+    gap: 4%;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+.link--arrow {
+    width: 15px;
+}
+
+.link--arrow--wrapper {
+    display: flex;
+    gap: 5px;
 }
 
 .nav:nth-child(n) {
@@ -80,16 +116,18 @@ body {
 }
 
 .btn {
+    width: 87px;
     border-radius: 20px;
     background-color: #000000;
     border: 2px solid #4d4a4a;
-    padding: 1.5%;
+    padding: 10px;
     color: #fff;
 
 }
 
 .btn--nav {
     background-color: #159867;
+    width: 120px;
 }
 
 .title-logo {
