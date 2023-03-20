@@ -48,7 +48,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 110vh;
+    height: 145vh;
     max-width: calc(100% - 2px);
     padding-bottom: 30vh;
 
@@ -1008,7 +1008,7 @@ body {
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
-        height: 85vh;
+        height: 125vh;
     }
 
     .main-content{
@@ -1203,6 +1203,16 @@ body {
         bottom: 61%;
         width: 39%;
         min-width: 290px;
+    }
+}
+
+@media (max-width: 506px) {
+    .sect--4--title::after {
+        bottom: 37%;
+        height: 39%;
+        left: 10%;
+        width: 90%;
+        min-width: 200px;
     }
 }
 
