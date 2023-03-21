@@ -1157,6 +1157,12 @@ body {
     }
 }
 
+@media (max-width: 610px) {
+    .step {
+        margin-top: 65px;
+    }
+}
+
 
 @media (max-width: 577px) {
     .sect--5--title::after {
