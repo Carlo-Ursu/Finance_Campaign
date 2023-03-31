@@ -1149,6 +1149,10 @@ body {
     .section--3::after {
         bottom: -10%;
     }
+
+    .part--text::before {
+        left: -20px;
+    }
 }
 
 @media (max-width: 670px) {
@@ -1159,7 +1163,7 @@ body {
 
 @media (max-width: 610px) {
     .step {
-        margin-top: 65px;
+        margin-top: 85px;
     }
 }
 
@@ -1451,21 +1455,13 @@ body {
         padding-left: 0;
     }
 
-    .grid-content {
-        padding: 30px;
-    }
-
-    .value {
-        align-items: center;
-    }
-
     .col--head::before {
-        left: 19%;
-        width: 64%;
+        left: -3%;
+        width: 78%;
     }
 
     .cols {
-        text-align: center;
+        flex: 0;
     }
 
     .section--2 {
