@@ -48,7 +48,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 110vh;
+    height: 145vh;
     max-width: calc(100% - 2px);
     padding-bottom: 30vh;
 
@@ -1033,7 +1033,7 @@ body {
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
-        height: 90vh;
+        height: 110vh;
     }
 
     .main-content{
